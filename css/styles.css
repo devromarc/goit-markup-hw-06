@@ -659,7 +659,7 @@ p {
 }
 
 .modal {
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -694,12 +694,12 @@ p {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   cursor: pointer;
-
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-icon {
   fill: currentColor;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .modal-close:hover,
@@ -734,7 +734,6 @@ p {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
-  margin-top: 48px;
   margin-bottom: 36px;
 }
 
@@ -836,6 +835,7 @@ p {
   align-items: center;
   margin-top: 16px;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 
 .form-checkbox {
